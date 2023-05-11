@@ -33,13 +33,21 @@
     }
 
     #imagem {
-        float: left;
+        float: right;
         height: 100%;
         width: 50%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
     }
 }
