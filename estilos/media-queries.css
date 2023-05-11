@@ -8,6 +8,7 @@
 
     #login {
         width: 90vw;
+        height: 400px;
     }
 
     #imagem {
@@ -27,6 +28,7 @@
 
     p {
         font-size: 1em;
+        margin: 20px 0;
     }
     
     form a {
@@ -42,6 +44,7 @@
 
     #login {
         width: 950px;
+        height: 500px;
     }
 
     #imagem {
@@ -60,7 +63,8 @@
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0;
     }
 
     form a {
