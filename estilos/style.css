@@ -91,7 +91,7 @@ span {
     height: 100%;
     border: 0;
     border-radius: 10px;
-    transform: translateY(-5px);
+    transform: translateY(-6px);
 }
 
 form label { 
