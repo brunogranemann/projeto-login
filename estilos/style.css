@@ -28,7 +28,7 @@ main {
 }
 
 #login {
-    background-color: white;
+    background-color: #011C26;
     height: 500px;
     width: 250px;
     border-radius: 20px;
@@ -39,17 +39,22 @@ main {
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
+    display: block;
     background: black url(../imagens/predio.jpg) center bottom no-repeat;
     background-size: cover;
     height: 200px;
-    display: block;
 }
 
 #formulario {
     display: block;
+    background-color: white;
+    height: 100vh;
     padding: 10px;
 }
 
@@ -60,8 +65,4 @@ h1 {
 
 p {
     margin-bottom: 10px;
-}
-
-form p {
-
 }
