@@ -29,8 +29,8 @@ main {
 
 #login {
     background-color: #011C26;
-    height: 500px;
-    width: 250px;
+    height: 550px;
+    width: 270px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.449);
     
@@ -54,7 +54,7 @@ main {
 #formulario {
     display: block;
     background-color: white;
-    height: 100vh;
+    height: 100%;
     padding: 10px;
 }
 
