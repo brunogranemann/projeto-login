@@ -65,5 +65,41 @@ h1 {
 
 p {
     margin-bottom: 10px;
-    font-size: 0.8em;
+    font-size: 0.7em;
+}
+
+form .campo {
+    background-color: #011C26;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+form label { 
+    display: none;
+}
+
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #F27405;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: #964803;
+}
+
+form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #964803;
+    font-size: 0.7em;
+    cursor: pointer;
 }
